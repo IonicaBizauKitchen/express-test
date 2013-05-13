@@ -1,0 +1,17 @@
+{
+  "name": "express-test",
+  "version": "0.0.0",
+  "description": "Test of Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "Dan Kohn <dan@dankohn.com>",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.4",
+    "request": "~2.21.0"
+  }
+}
