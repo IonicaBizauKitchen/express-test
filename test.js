@@ -6,6 +6,6 @@ request.get("http://localhost:" + port + "?test=http", function (err, res, body)
     console.log(body)
 });
 
-request.get("https://localhost:4000?test=https", function (err, res, body) {
+request.get("https://localhost:4000?test=https", {rejectUnauthorized:false}, function (err, res, body) {
     console.log(body)
 });
